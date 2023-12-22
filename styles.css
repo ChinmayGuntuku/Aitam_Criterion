@@ -13215,10 +13215,10 @@ body:not(.layout-fixed) .main-sidebar .sidebar {
 }
 
 .main-footer {
-    background-color: #fff;
+    background-color: #000;
     border-top: 1px solid #dee2e6;
-    color: #869099;
-    padding: 1rem
+    padding: 1rem;
+    color: #fff;
 }
 
 .main-footer.text-sm,
@@ -55820,4 +55820,5 @@ a.text-muted:hover {
 
 .credits {
     text-align: center;
+    color: #869099;
 }
