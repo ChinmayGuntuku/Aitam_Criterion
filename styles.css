@@ -202,7 +202,8 @@ figure {
 
 img {
     vertical-align: middle;
-    border-style: none
+    border-style: none;
+    max-width: 70%;
 }
 
 svg {
@@ -2877,7 +2878,7 @@ textarea.form-control.is-invalid {
 }
 
 .btn:hover {
-    color: #212529;
+    color: hwb(210 30% 29%);
     text-decoration: none
 }
 
@@ -2909,29 +2910,29 @@ fieldset:disabled a.btn {
 
 .btn-primary {
     color: #fff;
-    background-color: #007bff;
-    border-color: #007bff;
+    background-color: #0089a7;
+    border-color: #0089a7;
     box-shadow: none
 }
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #0069d9;
+    background-color: #9fcaf7;
     border-color: #0062cc
 }
 
 .btn-primary.focus,
 .btn-primary:focus {
     color: #fff;
-    background-color: #0069d9;
-    border-color: #0062cc;
+    background-color: #0089a7;
+    border-color: #0089a7;
     box-shadow: 0 0 0 0 rgba(38, 143, 255, .5)
 }
 
-.btn-primary.disabled,
-.btn-primary:disabled {
+.btn-primary.,
+.btn-primary: {
     color: #fff;
-    background-color: #007bff;
+    background-color: #0089a7;
     border-color: #007bff
 }
 
@@ -3035,15 +3036,15 @@ fieldset:disabled a.btn {
 
 .btn-info {
     color: #fff;
-    background-color: #17a2b8;
-    border-color: #17a2b8;
+    background-color: #ee4a62;
+    border-color: #ee4a62;
     box-shadow: none
 }
 
 .btn-info:hover {
     color: #fff;
-    background-color: #138496;
-    border-color: #117a8b
+    background-color: #5c636a;
+    border-color: #5c636a;
 }
 
 .btn-info.focus,
@@ -3566,7 +3567,8 @@ fieldset:disabled a.btn {
     padding: .25rem .5rem;
     font-size: .875rem;
     line-height: 1.5;
-    border-radius: .2rem
+    border-radius: .2rem;
+    max-width: 5rem;
 }
 
 .btn-block {
@@ -5785,7 +5787,7 @@ a.badge-success:focus {
 
 .badge-info {
     color: #fff;
-    background-color: #17a2b8
+    background-color: #EE4862;
 }
 
 a.badge-info:focus,
@@ -33931,15 +33933,15 @@ html.maximized-card {
 
 .dark-mode .btn-primary {
     color: #fff;
-    background-color: #3f6791;
-    border-color: #3f6791;
+    background-color: #ee4a62;
+    border-color: #ee4a62;
     box-shadow: none
 }
 
 .dark-mode .btn-primary:hover {
     color: #fff;
-    background-color: #335476;
-    border-color: #304e6d
+    background-color: #ee4a62;
+    border-color: #ee4a62;
 }
 
 .dark-mode .btn-primary.focus,
@@ -33953,7 +33955,7 @@ html.maximized-card {
 .dark-mode .btn-primary.disabled,
 .dark-mode .btn-primary:disabled {
     color: #fff;
-    background-color: #3f6791;
+    background-color: #ee4a62;
     border-color: #3f6791
 }
 
@@ -55814,4 +55816,8 @@ a.text-muted:hover {
 
 .dark-mode .border-dark {
     border-color: #4b545c !important
+}
+
+.credits{
+    text-align: center;
 }
