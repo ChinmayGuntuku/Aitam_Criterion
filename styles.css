@@ -4717,7 +4717,9 @@ input[type=submit].btn-block {
     flex-wrap: wrap;
     padding-left: 0;
     margin-bottom: 0;
-    list-style: none
+    list-style: none;
+    margin: auto;
+    align-self: center;
 }
 
 .nav-link {
@@ -13718,7 +13720,7 @@ body:not(.layout-fixed) .main-sidebar .sidebar {
 }
 
 .main-header .navbar-nav .nav-item {
-    margin: 0
+    margin: auto;
 }
 
 .main-header .navbar-nav[class*="-right"] .dropdown-menu {
